@@ -8,22 +8,37 @@
 
 /* Begin PBXBuildFile section */
 		A1F5082C28C51136009362E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F5082B28C51136009362E8 /* AppDelegate.swift */; };
-		A1F5082E28C51136009362E8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F5082D28C51136009362E8 /* SceneDelegate.swift */; };
-		A1F5083028C51136009362E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F5082F28C51136009362E8 /* ViewController.swift */; };
-		A1F5083328C51136009362E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1F5083128C51136009362E8 /* Main.storyboard */; };
 		A1F5083528C51137009362E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1F5083428C51137009362E8 /* Assets.xcassets */; };
 		A1F5083828C51137009362E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1F5083628C51137009362E8 /* LaunchScreen.storyboard */; };
+		A1F5084128C511B9009362E8 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = A1F5084028C511B9009362E8 /* SnapKit */; };
+		A1F5084828C51206009362E8 /* Planet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F5084728C51206009362E8 /* Planet.swift */; };
+		A1F5084B28C51211009362E8 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F5084A28C51211009362E8 /* Box.swift */; };
+		A1F5084F28C5123F009362E8 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F5084D28C5123F009362E8 /* DataManager.swift */; };
+		A1F5085028C5123F009362E8 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F5084E28C5123F009362E8 /* NetworkManager.swift */; };
+		A1F5085428C51298009362E8 /* DetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F5085228C51298009362E8 /* DetailsViewModel.swift */; };
+		A1F5085528C51298009362E8 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F5085328C51298009362E8 /* DetailsViewController.swift */; };
+		A1F5085828C512E7009362E8 /* PlanetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F5085728C512E7009362E8 /* PlanetsViewController.swift */; };
+		A1F5085A28C512EC009362E8 /* PlanetsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F5085928C512EC009362E8 /* PlanetsViewModel.swift */; };
+		A1F5085D28C5130A009362E8 /* CellPlanet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F5085C28C5130A009362E8 /* CellPlanet.swift */; };
+		A1F5085F28C51312009362E8 /* CellPlanetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F5085E28C51312009362E8 /* CellPlanetViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A1F5082828C51136009362E8 /* SolarSystem_MVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SolarSystem_MVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1F5082B28C51136009362E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A1F5082D28C51136009362E8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A1F5082F28C51136009362E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A1F5083228C51136009362E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A1F5083428C51137009362E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1F5083728C51137009362E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A1F5083928C51137009362E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1F5084728C51206009362E8 /* Planet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Planet.swift; sourceTree = "<group>"; };
+		A1F5084A28C51211009362E8 /* Box.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Box.swift; sourceTree = "<group>"; };
+		A1F5084D28C5123F009362E8 /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		A1F5084E28C5123F009362E8 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		A1F5085228C51298009362E8 /* DetailsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewModel.swift; sourceTree = "<group>"; };
+		A1F5085328C51298009362E8 /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		A1F5085728C512E7009362E8 /* PlanetsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanetsViewController.swift; sourceTree = "<group>"; };
+		A1F5085928C512EC009362E8 /* PlanetsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanetsViewModel.swift; sourceTree = "<group>"; };
+		A1F5085C28C5130A009362E8 /* CellPlanet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellPlanet.swift; sourceTree = "<group>"; };
+		A1F5085E28C51312009362E8 /* CellPlanetViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellPlanetViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1F5084128C511B9009362E8 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +72,102 @@
 		A1F5082A28C51136009362E8 /* SolarSystem_MVVM */ = {
 			isa = PBXGroup;
 			children = (
-				A1F5082B28C51136009362E8 /* AppDelegate.swift */,
-				A1F5082D28C51136009362E8 /* SceneDelegate.swift */,
-				A1F5082F28C51136009362E8 /* ViewController.swift */,
-				A1F5083128C51136009362E8 /* Main.storyboard */,
-				A1F5083428C51137009362E8 /* Assets.xcassets */,
-				A1F5083628C51137009362E8 /* LaunchScreen.storyboard */,
-				A1F5083928C51137009362E8 /* Info.plist */,
+				A1F5085628C512C3009362E8 /* PlanetsTableVC */,
+				A1F5085128C51298009362E8 /* DetailPlanetVC */,
+				A1F5084C28C5123F009362E8 /* Services */,
+				A1F5084928C51211009362E8 /* Halpers */,
+				A1F5084628C51206009362E8 /* Model */,
+				A1F5084528C511FE009362E8 /* Application */,
+				A1F5084428C511FB009362E8 /* Storyboard */,
+				A1F5084328C511F9009362E8 /* Resources */,
+				A1F5084228C511F7009362E8 /* Supporting Files */,
 			);
 			path = SolarSystem_MVVM;
+			sourceTree = "<group>";
+		};
+		A1F5084228C511F7009362E8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A1F5083928C51137009362E8 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A1F5084328C511F9009362E8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A1F5083428C51137009362E8 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A1F5084428C511FB009362E8 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				A1F5083628C51137009362E8 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		A1F5084528C511FE009362E8 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				A1F5082B28C51136009362E8 /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		A1F5084628C51206009362E8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A1F5084728C51206009362E8 /* Planet.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A1F5084928C51211009362E8 /* Halpers */ = {
+			isa = PBXGroup;
+			children = (
+				A1F5084A28C51211009362E8 /* Box.swift */,
+			);
+			path = Halpers;
+			sourceTree = "<group>";
+		};
+		A1F5084C28C5123F009362E8 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A1F5084D28C5123F009362E8 /* DataManager.swift */,
+				A1F5084E28C5123F009362E8 /* NetworkManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A1F5085128C51298009362E8 /* DetailPlanetVC */ = {
+			isa = PBXGroup;
+			children = (
+				A1F5085228C51298009362E8 /* DetailsViewModel.swift */,
+				A1F5085328C51298009362E8 /* DetailsViewController.swift */,
+			);
+			path = DetailPlanetVC;
+			sourceTree = "<group>";
+		};
+		A1F5085628C512C3009362E8 /* PlanetsTableVC */ = {
+			isa = PBXGroup;
+			children = (
+				A1F5085B28C512F9009362E8 /* CellPlanet */,
+				A1F5085928C512EC009362E8 /* PlanetsViewModel.swift */,
+				A1F5085728C512E7009362E8 /* PlanetsViewController.swift */,
+			);
+			path = PlanetsTableVC;
+			sourceTree = "<group>";
+		};
+		A1F5085B28C512F9009362E8 /* CellPlanet */ = {
+			isa = PBXGroup;
+			children = (
+				A1F5085E28C51312009362E8 /* CellPlanetViewModel.swift */,
+				A1F5085C28C5130A009362E8 /* CellPlanet.swift */,
+			);
+			path = CellPlanet;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +186,9 @@
 			dependencies = (
 			);
 			name = SolarSystem_MVVM;
+			packageProductDependencies = (
+				A1F5084028C511B9009362E8 /* SnapKit */,
+			);
 			productName = SolarSystem_MVVM;
 			productReference = A1F5082828C51136009362E8 /* SolarSystem_MVVM.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +217,9 @@
 				Base,
 			);
 			mainGroup = A1F5081F28C51136009362E8;
+			packageReferences = (
+				A1F5083F28C511B9009362E8 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = A1F5082928C51136009362E8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +236,6 @@
 			files = (
 				A1F5083828C51137009362E8 /* LaunchScreen.storyboard in Resources */,
 				A1F5083528C51137009362E8 /* Assets.xcassets in Resources */,
-				A1F5083328C51136009362E8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +246,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1F5083028C51136009362E8 /* ViewController.swift in Sources */,
+				A1F5084B28C51211009362E8 /* Box.swift in Sources */,
+				A1F5084F28C5123F009362E8 /* DataManager.swift in Sources */,
+				A1F5085028C5123F009362E8 /* NetworkManager.swift in Sources */,
+				A1F5085F28C51312009362E8 /* CellPlanetViewModel.swift in Sources */,
 				A1F5082C28C51136009362E8 /* AppDelegate.swift in Sources */,
-				A1F5082E28C51136009362E8 /* SceneDelegate.swift in Sources */,
+				A1F5085828C512E7009362E8 /* PlanetsViewController.swift in Sources */,
+				A1F5085528C51298009362E8 /* DetailsViewController.swift in Sources */,
+				A1F5084828C51206009362E8 /* Planet.swift in Sources */,
+				A1F5085D28C5130A009362E8 /* CellPlanet.swift in Sources */,
+				A1F5085A28C512EC009362E8 /* PlanetsViewModel.swift in Sources */,
+				A1F5085428C51298009362E8 /* DetailsViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A1F5083128C51136009362E8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A1F5083228C51136009362E8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A1F5083628C51137009362E8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -289,10 +397,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = YGRG6HC2V6;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SolarSystem_MVVM/Info.plist;
+				INFOPLIST_FILE = "SolarSystem_MVVM/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -317,10 +424,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = YGRG6HC2V6;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SolarSystem_MVVM/Info.plist;
+				INFOPLIST_FILE = "SolarSystem_MVVM/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -358,6 +464,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A1F5083F28C511B9009362E8 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A1F5084028C511B9009362E8 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A1F5083F28C511B9009362E8 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A1F5082028C51136009362E8 /* Project object */;
 }
