@@ -145,8 +145,8 @@
 		A1F5085128C51298009362E8 /* DetailPlanetVC */ = {
 			isa = PBXGroup;
 			children = (
-				A1F5085228C51298009362E8 /* DetailsViewModel.swift */,
 				A1F5085328C51298009362E8 /* DetailsViewController.swift */,
+				A1F5085228C51298009362E8 /* DetailsViewModel.swift */,
 			);
 			path = DetailPlanetVC;
 			sourceTree = "<group>";

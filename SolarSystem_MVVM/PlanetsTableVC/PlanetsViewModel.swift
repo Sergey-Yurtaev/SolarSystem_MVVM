@@ -13,7 +13,6 @@ protocol PlanetsViewModalProtocol {
     func numberOfRows() -> Int
     func cellViewModel(at indexPath: IndexPath) -> CellPlanetViewModalProtocol?
     func viewModelForSelectedRow(at indexPath: IndexPath) -> DetailsViewModelProtocol?
-    
 }
 
 class PlanetsViewModel: PlanetsViewModalProtocol {

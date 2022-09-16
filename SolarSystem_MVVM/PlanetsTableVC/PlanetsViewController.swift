@@ -15,8 +15,8 @@ class PlanetsViewController: UIViewController {
     
     private var viewModel: PlanetsViewModalProtocol! {
         didSet {
-            viewModel.fetchPlanets {
-                self.planetsTableView.reloadData()
+            viewModel.fetchPlanets { [weak self] in
+                self?.planetsTableView.reloadData()
             }
         }
     }

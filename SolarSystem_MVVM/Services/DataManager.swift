@@ -9,7 +9,9 @@ import Foundation
 
 class DataManager {
     static let shared = DataManager()
+    
     private let userDefaults = UserDefaults()
+    
     private init() {}
     
     func saveFavoriteStatus(for namePlanet: String, with status: Bool) {

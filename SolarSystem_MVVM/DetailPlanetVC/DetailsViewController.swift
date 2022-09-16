@@ -35,7 +35,6 @@ class DetailsViewController: UIViewController, UIScrollViewDelegate {
         scrollView.contentSize = contentSize
         scrollView.contentOffset = CGPoint(x: 0, y: 200)
         scrollView.backgroundColor = .black
-
         return scrollView
     }()
     
@@ -128,7 +127,7 @@ class DetailsViewController: UIViewController, UIScrollViewDelegate {
         setConstrains()
         setupUI()
     }
-        
+    
     // MARK:  Actions @objc
     @objc func toggleFavorite(sender: UIButton!) {
         viewModel.changeFavoriteStatus()
@@ -141,6 +140,23 @@ class DetailsViewController: UIViewController, UIScrollViewDelegate {
     }
     
     // MARK: - Private methods
+    private func setupUI() {
+        viewModel.isFavorite.bind { [weak self] isFavorite in
+            self?.isFavorite = isFavorite
+        }
+        
+        viewModel.setFavoriteStatus()
+        setImageForFavoriteButton()
+        namePlanetLabel.text = viewModel.planetName
+        velocityLabel.text = viewModel.velocity
+        distanceLabel.text = viewModel.distance
+        descriptionLabel.text = viewModel.description
+    }
+    
+    private func setImageForFavoriteButton() {
+        favoriteButton.tintColor = isFavorite ? .red : .gray
+    }
+    
     private func setupSubviews() {
         view.addSubview(scrollView)
         scrollView.addSubview(contentView)
@@ -194,23 +210,6 @@ class DetailsViewController: UIViewController, UIScrollViewDelegate {
             make.left.right.equalToSuperview().inset(50)
             make.bottom.equalTo(descriptionLabel).inset(-50)
         }
-    }
-    
-    private func setupUI() {
-        viewModel.isFavorite.bind { [unowned self] isFavorite in
-            self.isFavorite = isFavorite
-        }
-        
-        viewModel.setFavoriteStatus()
-        setImageForFavoriteButton()
-        namePlanetLabel.text = viewModel.planetName
-        velocityLabel.text = viewModel.velocity
-        distanceLabel.text = viewModel.distance
-        descriptionLabel.text = viewModel.description
-    }
-    
-    private func setImageForFavoriteButton() {
-        favoriteButton.tintColor = isFavorite ? .red : .gray
     }
     
     deinit {
