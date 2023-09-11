@@ -24,7 +24,7 @@ protocol DetailsViewModelProtocol {
     func changeFavoriteStatus()
 }
 
-class DetailsViewModel: DetailsViewModelProtocol {
+final class DetailsViewModel: DetailsViewModelProtocol {
     var urlFullInfo: String {
         "https://en.wikipedia.org/wiki/Solar_System"
     }

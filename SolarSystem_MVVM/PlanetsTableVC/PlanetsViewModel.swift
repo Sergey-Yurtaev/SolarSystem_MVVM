@@ -15,7 +15,7 @@ protocol PlanetsViewModalProtocol {
     func viewModelForSelectedRow(at indexPath: IndexPath) -> DetailsViewModelProtocol?
 }
 
-class PlanetsViewModel: PlanetsViewModalProtocol {
+final class PlanetsViewModel: PlanetsViewModalProtocol {
     var planets: [Planet] = []
     
     func fetchPlanets(completion: @escaping () -> Void) {

@@ -9,14 +9,16 @@ import UIKit
 import SnapKit
 import SafariServices
 
-class DetailsViewController: UIViewController, UIScrollViewDelegate {
+final class DetailsViewController: UIViewController, UIScrollViewDelegate {
     
     //MARK: Public properties
     var viewModel: DetailsViewModelProtocol! {
         didSet {
             viewModel.fetchImage {
                 guard let imageData = self.viewModel.imageData else { return }
-                DispatchQueue.main.async {
+                DispatchQueue.main.async { [weak self] in
+                    guard let self else { return }
+                    
                     self.activityIndicator.stopAnimating()
                     self.imagePlanet.image = UIImage(data: imageData)
                 }

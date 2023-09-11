@@ -7,16 +7,17 @@
 import SnapKit
 import UIKit
 
-class PlanetsViewController: UIViewController {
+final class PlanetsViewController: UIViewController {
     
-    //MARK: Private properties
+    //MARK: - Private properties
     private let cellID = "cellPlanet"
     private let planetsTableView = UITableView()
     
     private var viewModel: PlanetsViewModalProtocol! {
         didSet {
             viewModel.fetchPlanets { [weak self] in
-                self?.planetsTableView.reloadData()
+                guard let self else { return }
+                self.planetsTableView.reloadData()
             }
         }
     }
@@ -57,7 +58,6 @@ class PlanetsViewController: UIViewController {
     deinit {
         print("PlanetsViewController has been dealocated")
     }
-    
 }
 
 // MARK: - UITableViewDelegate

@@ -14,7 +14,7 @@ protocol CellPlanetViewModalProtocol {
     init(planet: Planet)
 }
 
-class CellPlanetViewModal: CellPlanetViewModalProtocol {
+final class CellPlanetViewModal: CellPlanetViewModalProtocol {
 
     var namePlanet: String {
         positionAndNamePlanet()

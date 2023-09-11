@@ -8,7 +8,7 @@
 import UIKit
 import SnapKit
 
-class CellPlanet: UITableViewCell {
+final class CellPlanet: UITableViewCell {
     
     var viewModel: CellPlanetViewModalProtocol! {
         didSet {
